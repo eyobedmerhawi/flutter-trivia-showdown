@@ -83,9 +83,34 @@ The application was tested for:
 | Offline error handling | Passed |
 | Recovery after reconnecting | Passed |
 
+
 ## Screenshots
 
-Screenshots of the gameplay, answer feedback, final score, and score-sync simulation will be added here.
+### 1. Trivia Questions
+Five general-knowledge questions are fetched from the Open Trivia Database API.
+
+![Trivia Question](screenshots/question.png)
+
+### 2. Instant Answer Feedback
+Correct answers are highlighted green, while incorrect selections are highlighted red.
+
+![Answer Feedback](screenshots/feedback.png)
+
+### 3. Final Score
+Players can view their final score after completing all five questions.
+
+![Final Results](screenshots/results.png)
+
+### 4. Score Sync Simulation
+The application demonstrates an asynchronous score-submission workflow. No data is sent to a real backend.
+
+![Score Sync Simulation](screenshots/score-sync.png)
+
+
+### 5. Network Error Handling
+When the device loses internet connectivity, the application displays an error message and provides a Try Again button to reload questions after reconnecting.
+
+![Network Error Handling](screenshots/Internet_error.png)
 
 ## Future Improvements
 
